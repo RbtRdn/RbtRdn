@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 -->
 
 <h2 align="left">Hi 👋! My name Roberta </h2>
-
+ 🚀 I’m currently working on a Next.js app that makes managing missed calls easier with AI-generated summaries and a clean dashboard. It uses GitHub authentication via NextAuth, MongoDB for data storage, API routes for call and summary management.
 
 
 # 💻 Tech Stack:
