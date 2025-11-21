@@ -1,0 +1,17 @@
+name: Update GitHub Stats
+
+on:
+  # Runs once every day
+  schedule:
+    - cron: "0 0 * * *"
+  # Allows you to trigger it manually
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call GitHub Readme Stats to refresh private repo data
+        run: |
+          curl -X GET "https://github-readme-stats.vercel.app/api?username=rbtrdn&count_private=true" \
+          -H "Authorization: token ${{ secrets.PAT_1 }}"
