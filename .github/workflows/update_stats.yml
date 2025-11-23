@@ -13,5 +13,4 @@ jobs:
     steps:
       - name: Call GitHub Readme Stats to refresh private repo data
         run: |
-          curl -X GET "https://github-readme-stats.vercel.app/api?username=rbtrdn&count_private=true" \
-          -H "Authorization: token ${{ secrets.PAT_1 }}"
+        curl "https://github-readme-stats.vercel.app/api?username=rbtrdn&count_private=true&cache_seconds=1"
