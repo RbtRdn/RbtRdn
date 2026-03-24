@@ -26,7 +26,7 @@ Next.js + MongoDB web app for media creators. Code emulator.
 # 📊 GitHub Stats:
 
 ![](https://nirzak-streak-stats.vercel.app/?user=RbtRdn&theme=dark&hide_border=false)<br/>
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=user=RbtRdn)](https://git.io/streak-stats)
+[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=RbtRdn)](https://git.io/streak-stats)
 
 
 ---
